@@ -19,10 +19,11 @@ p  { color:white;
     margin:auto;
     padding: 18px;
    }
+
 img
 {
-
-  width:20%;
+  height:208px;
+  width:200px;
   display:block;
   margin:auto;
   border-radius: 50%;
