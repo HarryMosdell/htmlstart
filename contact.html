@@ -5,7 +5,7 @@
 
 <head>
 <title> first webpage </title>
-<link rel="stylesheet"   href="style.css">
+<link rel="stylesheet"   href="contactform.css">
 </head>
 
 <nav>
@@ -20,14 +20,24 @@
 
 <header>
 
-<h1> Contact Details </h1>
 
-<p> Harry Mosdell </p>
+<form>
+  <h1 class="form-title"> Contact Form</h1>
 
-<p> 4 Reg Partridge Close Duston NN5 6FJ Northampton </p>
-<p>01604 590361 </p>
-<p> harry_mosdell@msn.com
- </p>
+  <div class="form-group">
+    <label for="form-input">Enter Name</label>
+    <input type="text" id="form-input">
+  </div>
+
+
+  <div class="form-group">
+    <label for="form-textarea">Enter Message and Email</label>
+    <textarea rows="4" cols="25" id="form-textarea"></textarea>
+  </div>
+
+
+  <button>Submit</button>
+</form>
 
 
 </header>
