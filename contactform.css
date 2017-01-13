@@ -44,16 +44,20 @@ margin:0;
 }
 
 
-html, body {
-  font-family: grey;
+body {
+  font-family: white;
+
 }
 
 form {
 
   padding: 1em;
-  width: 40%;
+  width: 60%;
   min-width: 15em;
   max-width: 26.5em;
+  width:100%;
+  display:block;
+  margin:auto;
 }
 
 .form-title {
@@ -61,18 +65,18 @@ form {
 }
 
 .form-group {
+  color: white;
+  font-size: 30px;
   margin-bottom: 0.5em;
+
 }
 
 textarea {
   width: 116%;
-  
-  resize: none;
+  height: 150px;
+   resize: none;
 }
 
 fieldset {
   width: inherit;
-}
-.option-list {
-  display: inline-block;
 }
